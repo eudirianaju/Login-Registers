@@ -10,7 +10,7 @@ Espero que gostem!😀
 
 Para qualquer dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo:
 
-- Email: seuemail@example.com
+- Email: nunesmeloanajulia@gmail.com
 
 ## LinkedIn 💼
 

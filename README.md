@@ -6,6 +6,14 @@ Estou animado em compartilhar algumas das minhas criações mais recentes, proje
 
 Espero que gostem!😀
 
+Para qualquer dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo:
+
+- Email: nunesmeloanajulia@gmail.com
+
+## LinkedIn
+
+Você também pode me encontrar no [LinkedIn]([https://www.linkedin.com/in/seu-perfil-linkedin/](https://www.linkedin.com/in/ana-julia-nunes-melo-12855822a/).
+
 Protótipos no figma: https://www.figma.com/file/ry8giBXXqqsNupTlKBd9qh/Untitled?type=design&node-id=0%3A1&mode=design&t=FAiPdqEJTSQ4Ug4o-1
 
 ![Login1](https://github.com/eudirianaju/Login-Registers/assets/100884185/c87cae7b-525a-4553-a00a-6108759f8341)

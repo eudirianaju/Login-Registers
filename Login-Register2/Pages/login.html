@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_login.css" />
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <img src="img/image2.png">
+        <header>Olá, amigo!</header>
+        <h1>faça login para acompanhar o processo de seus projetos</h1>
+        <form action="#">
+
+            
+            <div class="field email-field">
+                <div class="input-field" data-label="EMAIL">
+                    <input type="email" placeholder="Digite seu e-mail" class="email" />
+                </div>
+                <span class="error email-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">Por favor digite um email válido</p>
+                </span>
+            </div>
+            
+            <div class="field create-password">
+                <div class="input-field" data-label="SENHA">
+                    <input type="password" placeholder="Criar senha" class="password" />
+                    <i class="bx bx-hide show-hide"></i>
+                </div>
+                <span class="error password-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">
+                        Insira pelo menos 8 caracteres com número, símbolo, letra minúscula e maiúscula.
+                    </p>
+                </span>
+            </div>
+            
+          
+          <div class="input-field button">
+            
+            <input type="submit" value="Fazer login" />
+        
+        </div>
+
+        <div class="login"><a href="./register.html">Novato por aqui? faça cadastro</a></div>
+
+        </div>
+
+
+
+        </form>
+      </div>
+      <script src="./script_login.js"></script>
+    </body>
+  </html>

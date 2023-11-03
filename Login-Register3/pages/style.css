@@ -1,0 +1,235 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:wght@500&family=Gabarito&family=IBM+Plex+Sans:wght@600&family=Mukta&family=Nunito:ital,wght@1,200&family=Oswald:wght@500&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap');
+
+
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(51.12% 51.12% at 50% 52.83%, #FFF 0%, #ECBE81 100%);
+}
+
+
+.container {
+    position: relative;
+    max-width: auto;
+    max-height: 57rem;
+    width: 60rem;
+    padding: 25px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0px 4px 40px 0px #B2B2B2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.container header {
+    margin-top: 2rem;
+    color: #000;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.container h1 {
+    color: #949494;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 3rem;
+}
+
+
+
+.container header,
+.container h1 {
+    width: 100%;
+}
+
+.esquerda,
+.direita {
+    flex: 1;
+}
+
+.container img {
+    height: 32rem;
+    padding-left: 7rem;
+    padding-bottom: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.direita {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 70px;
+    padding-bottom: 90px;
+}
+
+
+.formulario {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    background: rgba(0, 0, 0, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+}
+
+
+.container form {
+    margin-top: 0px;
+}
+
+form .field {
+    margin-bottom: 20px;
+}
+
+.field .input-field:before {
+    margin-left: 14px;
+    margin-bottom: 2px;
+    font-family: 'Montserrat';
+    content: attr(data-label);
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+form .input-field {
+    margin-bottom: 2rem;
+    position: relative;
+    height: 55px;
+    width: 100%;
+}
+
+.input-field input {
+    background-color: rgba(201, 196, 196, 0.069);
+    border-radius: 20px;
+    width: 100%;
+    height: 52px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 0 15px;
+}
+
+.input-field input::placeholder {
+    color: rgba(0, 0, 0, 0.42);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.invalid input {
+    border-color: #d93025;
+}
+
+
+.field .error {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    color: #d93025;
+    font-size: 13px;
+    display: none;
+    font-weight: 600;
+}
+
+.invalid .error {
+    display: flex;
+}
+
+.error .error-icon {
+    margin-right: 6px;
+    font-size: 15px;
+}
+
+.create-password .error {
+    align-items: flex-start;
+}
+
+.create-password .error-icon {
+    margin-top: 4px;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+
+.button input {
+    margin-top: 2rem;
+    display: flex;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #ECBE81;
+}
+
+.button input:hover {
+    transform: scale(0.9);
+}
+
+.button input:active {
+    transform: scale(0.95);
+}
+
+
+.login {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login a {
+    color: rgba(97, 97, 97, 0.48);
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+
+}

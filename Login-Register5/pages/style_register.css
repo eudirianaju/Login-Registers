@@ -1,0 +1,211 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:wght@500&family=Gabarito&family=IBM+Plex+Sans:wght@600&family=Mukta&family=Nunito:ital,wght@1,200&family=Oswald:wght@500&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.background {
+    background-image: url('./img/back.png');
+    /* Caminho relativo */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: fixed;
+    width: 720px;
+    height: 1024px;
+    padding: 25px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.40);
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container header {
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.container h1 {
+    color: rgba(95, 94, 94, 0.50);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;    
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.container form {
+    margin-top: 30px;
+}
+
+form .field {
+    margin-bottom: 20px;
+}
+
+.field .input-field:before {
+    margin-left: 13rem;
+    content: attr(data-label);
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+form .input-field {
+    margin-bottom: 2rem;
+    position: relative;
+    height: 55px;
+    width: 100%;
+}
+
+.input-field input {
+    background-color: rgba(201, 196, 196, 0.16);
+    border-radius: 20px;
+    width: 30rem;
+    height: 52px;
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    margin-left: 12rem;
+    margin-right: 10rem;
+    
+
+}
+
+.input-field input::placeholder {
+    color: rgba(0, 0, 0, 0.42);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.invalid input {
+    border-color: #d93025;
+}
+
+
+
+.field .error {
+    margin-left: 12.5rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    color: #d93025;
+    font-size: 13px;
+    display: none;
+    font-weight: 500;
+}
+
+.invalid .error {
+    display: flex;
+}
+
+.error .error-icon {
+    margin-right: 6px;
+    font-size: 15px;
+}
+
+.create-password .error {
+    align-items: flex-start;
+}
+
+.create-password .error-icon {
+    margin-top: 4px;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+
+.button input {
+    margin-top: 2.5rem;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    width: 320px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #772CF1;
+}
+
+.button input:hover {
+    transform: scale(0.9);
+}
+
+.button input:active {
+    transform: scale(0.95);
+}
+
+
+.login {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login a {
+    color: rgba(97, 97, 97, 0.48);
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-left: 2.5rem;
+    
+
+}

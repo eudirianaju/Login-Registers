@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_register..css" />
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <header>Criar conta</header>
+        <h1>Preencha as informações para efetuar cadastro</h1>
+        <form action="#">
+
+            <div class="field nome-field">
+                <div class="input-field" data-label="NOME">
+                    <input type="nome" placeholder="Digite seu nome" class="nome" />
+                </div>
+                <span class="error email-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">Por favor digite um email válido</p>
+                </span>
+            </div>
+            
+            <div class="field email-field">
+                <div class="input-field" data-label="EMAIL">
+                    <input type="email" placeholder="Digite seu e-mail" class="email" />
+                </div>
+                <span class="error email-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">Por favor digite um email válido</p>
+                </span>
+            </div>
+            
+            <div class="field create-password">
+                <div class="input-field" data-label="SENHA">
+                    <input type="password" placeholder="Criar senha" class="password" />
+                    <i class="bx bx-hide show-hide"></i>
+                </div>
+                <span class="error password-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">
+                        Insira pelo menos 8 caracteres com número, símbolo, letra minúscula e maiúscula.
+                    </p>
+                </span>
+            </div>
+            
+          <div class="field confirm-password">
+            <div class="input-field" data-label="CONFIRME SUA SENHA">
+              <input
+                type="password"
+                placeholder="Confirme sua senha"
+                class="cPassword"
+              />
+              <i class="bx bx-hide show-hide"></i>
+            </div>
+            <span class="error cPassword-error">
+              <i class="bx bx-error-circle error-icon"></i>
+              <p class="error-text">A senha não corresponde</p>
+            </span>
+          </div>
+          <div class="input-field button">
+            
+            <input type="submit" value="Fazer cadastro" />        </div>
+
+            <div class="login"><a href="./login.html">Ja possui cadastro? faça login</a></div>
+
+        </div>
+
+
+
+        </form>
+      </div>
+      <script src="./script_register..js"></script>
+    </body>
+  </html>
